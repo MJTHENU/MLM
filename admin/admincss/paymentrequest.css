@@ -1,0 +1,12 @@
+#page-wrapper {
+    font: 1em/1.618 Inter, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px;
+    color: #224;
+    background: url(https://img.freepik.com/premium-vector/modern-abstract-yellow-background-vector-design_564326-92.jpg?w=1060) center no-repeat fixed;
+    background-size: cover;
+    
+  }

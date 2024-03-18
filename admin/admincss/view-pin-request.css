@@ -1,0 +1,14 @@
+
+#page-wrapper {
+  font-size: 1em;
+  line-height: 1.618;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0px;
+  color: #224;
+  background: url(https://static.bimago.pl/mediacache/catalog/product/cache/1/0/149901/image/750x1120/b75ec187d2ffa1fd22fa05ca7ee78353/149901_7.jpg) center no-repeat fixed;
+  background-size: cover;
+}

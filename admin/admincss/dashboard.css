@@ -1,0 +1,119 @@
+
+.stretch-card {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+.card.card-img-holder {
+    position: relative;
+}
+.stretch-card > .card {
+    width: 100%;
+    min-width: 100%;
+}
+.text-white {
+    color: #fff!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card {
+    border: 0;
+}
+
+.card .card-body {
+    padding: 2rem 2.5rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.card.card-img-holder .card-img-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.font-weight-normal {
+    font-weight: 400!important;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.font-weight-normal {
+    font-weight: normal;
+}
+.float-right {
+    float: right!important;
+}
+.mdi-24px.mdi-set, .mdi-24px.mdi:before {
+    font-size: 24px;
+}
+.mdi-account-supervisor::before {
+    content: "\FA8A";
+}
+.mdi:before, .mdi-set {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.bg-gradient-danger {
+    background: linear-gradient(to right, #ffbf96, #fe7096);
+}
+.bg-gradient-info {
+    background: linear-gradient(to right, #90caf9, #047edf 99%);
+}
+.bg-gradient-success, .dashboard-custom-date-picker .react-datepicker .react-datepicker__header {
+    background: linear-gradient(to right, #84d9d2, #07cdae);
+}
+.bg-gradient-last {
+    background: linear-gradient(to right, #c000ff, #047edf 99%);
+}
+
+
+#page-wrapper {
+    font: 1em/1.618 'Inter', sans-serif !important;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+  padding: 0px;
+  color: #224;
+        background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm222-mind-16_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1c53e59a7b21c1ffee85bc36a3837392')
+    no-repeat center center;
+  background-size: cover!important;
+
+}
+.c1{
+    margin-top: 90px;
+}
